@@ -1,7 +1,0 @@
-Package: cw1_6005_cs16g08
-Version: 1.0
-Section: php
-Maintainer: Craig Saunders <cs16g08@soton.ac.uk>
-Architecture: all
-Depends: php
-Description: PHP RSS Feed Reader
