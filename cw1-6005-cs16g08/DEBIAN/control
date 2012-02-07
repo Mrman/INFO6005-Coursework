@@ -1,0 +1,7 @@
+Package: cw1-6005-cs16g08
+Version: 1.0
+Section: php
+Maintainer: Craig Saunders <cs16g08@soton.ac.uk>
+Architecture: all
+Depends: php5-cli
+Description: PHP RSS Feed Reader
