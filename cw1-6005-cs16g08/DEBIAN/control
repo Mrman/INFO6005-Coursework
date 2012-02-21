@@ -5,7 +5,6 @@ Maintainer: Craig Saunders <cs16g08@ecs.soton.ac.uk>
 Version: 1.0
 Source: cw1-6005-cs16g08
 Priority: optional
-Maintainer: Craig Saunders <cs16g08@soton.ac.uk>
 Architecture: all
 Depends: php5-cli
 Homepage: https://github.com/info6005/6005_cw1_2012
