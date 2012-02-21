@@ -1,0 +1,24 @@
+Simple PHP based RSS feed reader. Executes via command line to read RSS feed.
+Feeds to be read are specified in a file or as arguments on the command line.
+
+Installation after cloning or downloading the repository:
+
+	dpkg -i cw1-6005-cs16g08-XXX.deb with XXX as the version number.
+
+	The package requires php5-cli, if this is not installed the installation will fail.
+
+	Installation can be completed using 'sudo apt-get -f install' to resolve the dependency issues.
+
+Usage:
+
+	cw1-6005-cs16g08
+
+	This command will load feeds specified in /etc/cw1-6005-cs16g08
+
+	cw1-6005-cs16g08 --feeds feed1url,feed2url --items 5
+
+	The above command will read feeds supplied (feed1url and feed2url) displaying the first 5 items from each
+
+Problems:
+
+	Contact cs16g08@ecs.soton.ac.uk
