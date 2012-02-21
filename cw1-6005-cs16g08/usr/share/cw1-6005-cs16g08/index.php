@@ -46,7 +46,14 @@
 
 	# Read config from file
 	if (@!$config) {
-		$config_file = dirname(__FILE__) .'/feeds.conf';
+
+		$curr_dir = dirname(__FILE__);
+		$config_file = $curr_dir .'/feeds.conf';
+
+		if ($curr_dir == '/usr/share/cw1-6005-cs16g08' && file_exists('/etc/cw1-6005-cs16g08/feeds.conf')) {
+			$config_file = '/etc/cw1-6005-cs16g08/feeds.conf';
+		}
+
 		if (file_exists($config_file)) {
 			$config = conf_from_file($config_file);
 		}
