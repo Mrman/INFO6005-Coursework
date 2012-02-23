@@ -1,0 +1,29 @@
+.TH cw1-6005-cs16g08 1 "20 Feb 2012" "v1.1"
+.SH NAME
+cw1-6005-cs16g08 - Simple PHP RSS feed reader
+.SH SYNOPSIS
+.B cw1-6005-cs16g08
+.I [OPTION]
+.SH DESCRIPTION
+.B cw1-6005-cs16g08
+is a simple PHP based RSS feed reader.
+
+Running the command without options will cause the script to rely on the configuration files for the feed sources to be read and the default number of items from that feed to be displayed.
+.SH OPTIONS
+--feeds http://example.org/feed1.rss,http://example.org/feed2.rss
+Feeds to be read can be passed in as arguments in a comma seperated list with no whitespace
+
+--items [num]
+The number of items, [num], to display for each feed can be specified with this option
+
+
+--help
+Display the help text for using this package
+.SH BUGS
+
+There are no critical bugs however it is noted that the comma seperated list of feeds must have no spaces e.g. ", " for the feed to be counted.
+
+.SH AUTHORS
+Craig Saunders <cs16g08@ecs.soton.ac.uk>
+
+

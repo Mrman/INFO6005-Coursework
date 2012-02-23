@@ -1,0 +1,14 @@
+Source: cw1-6005-cs16g08
+Section: net
+Priority: optional
+Maintainer: Craig Saunders <cs16g08@ecs.soton.ac.uk>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.8.3
+Homepage: https://github.com/info6005/6005_cw1_2012
+
+Package: cw1-6005-cs16g08
+Architecture: all
+Depends: php5-cli
+Description: PHP RSS Feed Reader
+ Simple PHP based RSS feed reader. Executes via command line to read RSS feed.
+ Read feeds in configuration file or will take feed arguments.ii
