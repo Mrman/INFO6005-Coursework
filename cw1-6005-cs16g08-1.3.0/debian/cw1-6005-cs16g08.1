@@ -10,7 +10,7 @@ is a simple PHP based RSS feed reader.
 
 Running the command without options will cause the script to rely on the configuration files for the feed sources to be read and the default number of items from that feed to be displayed.
 .SH OPTIONS
---feeds http://example.org/feed1.rss,http://example.org/feed2.rss
+--feeds feed1_url[,feed2_url]
 Feeds to be read can be passed in as arguments in a comma separated list with no whitespace
 
 --items [num]
@@ -23,7 +23,7 @@ Display the help text for using this package
 
 There are no critical bugs however it is noted that the comma separated list of feeds must have no spaces e.g. ", " for the feed to be counted.
 
+The --items option cannot be applied on command line without specifying --feeds as well.
+
 .SH AUTHORS
 Craig Saunders <cs16g08@ecs.soton.ac.uk>
-
-
