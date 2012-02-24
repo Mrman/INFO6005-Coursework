@@ -1,0 +1,42 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: cw1-6005-cs16g08@packages.debian.org\n"
+"POT-Creation-Date: 2012-02-24 12:08+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Type: string
+#. Description
+#: ../templates:1001
+msgid "feeds read by default (comma separated list, no spaces):"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:1001
+msgid ""
+"Specify default feeds to read when the package is called with no arguments."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:2001
+msgid "Number of feed items to display by default:"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:2001
+msgid "Specify the default number of items in each feed to be displayed."
+msgstr ""
