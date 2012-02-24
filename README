@@ -19,6 +19,14 @@ Usage:
 
 	The above command will read feeds supplied (feed1url and feed2url) displaying the first 5 items from each
 
+Notes:
+
+	This package uses debconf on installation to configure the global configuration file.
+
+	This file ( /etc/cw1-6005-cs16g08/feeds.conf ) can be edited in a text editor. 
+	
+	Instructions to do so are within the configuration file.
+
 Problems:
 
 	Contact cs16g08@ecs.soton.ac.uk
