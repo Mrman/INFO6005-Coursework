@@ -1,0 +1,15 @@
+#!/bin/sh -e
+
+# Source debconf library.
+. /usr/share/debconf/confmodule
+
+db_get cw1-6005-cs16g08/feeds
+feedlist="$RET"
+
+db_get cw1-6005-cs16g08/items
+items="$RET"
+
+conf_file=/etc/cw1-6005-cs16g08/feeds.conf
+conf_contents="`cat $conf_file`"
+
+echo "$conf_contents" | awk -v usrfeeds="$feedlist" ' BEGIN { split(usrfeeds, FEEDS, ","); } /<\/feeds>/{p=0;}/^<feeds>/{p=1; print $0; for(feed in FEEDS) print FEEDS[feed] }!p' | awk -v items="$items" '/<\/items>/{p=0;}/^<items>/{p=1; print $0; print items }!p'> /etc/cw1-6005-cs16g08/feeds.conf

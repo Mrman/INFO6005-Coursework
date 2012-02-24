@@ -1,0 +1,11 @@
+#!/bin/sh -e
+
+# Source debconf library.
+. /usr/share/debconf/confmodule
+
+#Which feeds?
+db_input critical cw1-6005-cs16g08/feeds || true
+
+#How many items?
+db_input critical cw1-6005-cs16g08/items || true
+db_go
