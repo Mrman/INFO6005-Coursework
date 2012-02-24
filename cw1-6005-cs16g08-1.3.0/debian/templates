@@ -1,11 +1,11 @@
 Template: cw1-6005-cs16g08/feeds
 Type: string
 Default: http://feeds.bbci.co.uk/news/rss.xml
-Description: Which feeds should be read by default? (comma separated list, no spaces)
- Specify the feeds that will be read by default when the package is called with no command line specified feeds.
+_Description: feeds read by default (comma separated list, no spaces):
+ Specify default feeds to read when the package is called with no arguments.
 
 Template: cw1-6005-cs16g08/items
 Type: string
 Default: 5
-Description: How many feeds should be displayed by default?
- Specify the number of feeds to be displayed when the package is called without any arguments to specify how many items from each feed are to be displayed.
+_Description: Number of feed items to display by default:
+ Specify the default number of items in each feed to be displayed. 
